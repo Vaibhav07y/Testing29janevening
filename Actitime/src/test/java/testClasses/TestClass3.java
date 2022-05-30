@@ -39,14 +39,14 @@ public class TestClass3 {
 		
 		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
-	@BeforeClass
-	public void CreatePOMClassObject()
-	{
-		 homeHeaderPage=new HomeHeaderPage(driver);
-	     loginpage=new LoginPage(driver);
-		
-	}
-	
+//	@BeforeClass
+//	public void CreatePOMClassObject()
+//	{
+//		 homeHeaderPage=new HomeHeaderPage(driver);
+//	     loginpage=new LoginPage(driver);
+//		
+//	}
+//	
 	@BeforeMethod
 	public void LoginIntoPage()
 	{
