@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="ChromeTest">
+  <parameter name="browesrName" value="Chorome"></parameter>
+    <classes>
+      <class name="testClasses.Class2"/>
+      <class name="testClasses.Class1"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test thread-count="5" name="FirefoxTest">
+  <parameter name="browesrName" value="Firefox"></parameter>
+    <classes>
+      <class name="testClasses.Class2"/>
+      <class name="testClasses.Class1"/>
+    </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->
