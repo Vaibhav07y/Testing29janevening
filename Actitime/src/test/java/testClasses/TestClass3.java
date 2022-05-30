@@ -39,6 +39,8 @@ public class TestClass3 {
 		
 		//driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
+	System.out.println("fail");
+		}
 //	@BeforeClass
 //	public void CreatePOMClassObject()
 //	{
